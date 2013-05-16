@@ -196,7 +196,19 @@ module ActiveMerchant
                                       :country => 'NZ',
                                       :city => 'Auckland',
                                       :address1 => '192 Victoria St West',
-                                      :postal_code => '1010')
+                                      :postal_code => '1010'),
+        :melbourne => Location.new(
+                                      :country => 'AU',
+                                      :city => 'Melbourne',
+                                      :address1 => '321 Exhibition St',
+                                      :state => 'VIC',
+                                      :postal_code => '3000'),
+        :sydney => Location.new(
+                                      :country => 'AU',
+                                      :city => 'Sydney',
+                                      :address1 => '2 Macquarie Street',
+                                      :state => 'NSW',
+                                      :postal_code => '2000')
       }
       
     end
